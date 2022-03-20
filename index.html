@@ -1,0 +1,84 @@
+<html>
+<head>
+        <title>Website design Using HTML and CSS</title>
+<head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <div class="main">
+            <nav>
+                <div class="Head">
+                    <title>Welcome to Anthony's project organizer.</title>
+                </div>
+                <div class="nav-link">
+                    <ul>
+                        <li><a href="#">Javeprojects</a></li>
+                        <li><a href="#">Javeprojects</a></li>
+                        <li><a href="#">Javascriptprojects</a></li>
+                        </li>
+                    </ul>
+                     </div>
+                
+            </nav>
+        <div class="information">
+            <div class="overlay"></div>
+            <div id="circle">
+                <div class="feature one"></div>
+                <div>
+                    <h1>A little about me</h1>
+                    <p>Hello my name is Anthony Jackson. I am 18 year old high school earily gradution, currently pursuring a degree in computer science.</p>
+                </div>
+                
+                <div class="feature two"></div>
+                <div>
+                    <h1>Work experenice</h1>
+                    <p>I currently employed at a low voltage company called Reaonix Secuity. There I help install fire, burgry, and cameras. I am also working at Home depot in the lumber department.</p>
+                </div>
+                
+                <div class="feature three"></div>
+                <div>
+                    <h1>Java project highlights</h1>
+                    <p>I am currently working on a java bot scaper which utilize Maven to add a dependencie.</p>
+
+                </div>
+            
+                <div class="feature four"></div>
+                <div>
+                    <h1>Java script Project highlights</h1>
+                    <p>I am fairly new to Javascript. I will be adding more projects later on. As of right now this website is my best Javascript implimention.</p>
+                </div>
+                
+                
+
+</div>
+</div>
+
+
+
+      </div>
+      <div class="Controls">
+          <img src=C:/Users/adjackson/Desktop/curved-white-arrow-png-white-up-arrow-icon-PNG-free-PNG-Images_169887.htm id="up">
+          <h3>Features</h3>
+          <img src=C:/Users/adjackson/Desktop/curved-white-arrow-png-white-up-arrow-icon-PNG-free-PNG-Images_169887.htm id="down">
+      </div>
+      <script>
+          var circle=document.getElementById("circle")
+          var up=document.getElementById("up")
+          var down=document.getElementById("down")
+          var rotatevalue=circle.style.transform;
+          var rotatesum;
+          up.oneclick=function()
+          {
+              rotatesum=rotatevalue+"rotate(-90)";
+          rotatevalue=rotatesum;
+            
+          }
+          down.oneclick=function()
+          {
+              rotatesum=rotatevalue+"rotate(+90)";
+          rotatevalue=rotatesum;
+          }
+      </script>
+  </body>
+  </html>
+  
